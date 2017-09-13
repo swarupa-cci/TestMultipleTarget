@@ -16,6 +16,13 @@
 		07BA2CE91F14DDFC00EC4D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CE71F14DDFC00EC4D69 /* LaunchScreen.storyboard */; };
 		07BA2CF41F14DDFC00EC4D69 /* TestMultipleTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CF31F14DDFC00EC4D69 /* TestMultipleTargetTests.m */; };
 		07BA2CFF1F14DDFC00EC4D69 /* TestMultipleTargetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CFE1F14DDFC00EC4D69 /* TestMultipleTargetUITests.m */; };
+		07EAA0361F14E0EB00AF9080 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CDD1F14DDFC00EC4D69 /* ViewController.m */; };
+		07EAA0371F14E0EB00AF9080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CDA1F14DDFC00EC4D69 /* AppDelegate.m */; };
+		07EAA0381F14E0EB00AF9080 /* TestMultipleTarget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CE21F14DDFC00EC4D69 /* TestMultipleTarget.xcdatamodeld */; };
+		07EAA0391F14E0EB00AF9080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CD71F14DDFC00EC4D69 /* main.m */; };
+		07EAA03C1F14E0EB00AF9080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CE71F14DDFC00EC4D69 /* LaunchScreen.storyboard */; };
+		07EAA03D1F14E0EB00AF9080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CE51F14DDFC00EC4D69 /* Assets.xcassets */; };
+		07EAA03E1F14E0EB00AF9080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CDF1F14DDFC00EC4D69 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,8 @@
 		07BA2CFA1F14DDFC00EC4D69 /* TestMultipleTargetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMultipleTargetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BA2CFE1F14DDFC00EC4D69 /* TestMultipleTargetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMultipleTargetUITests.m; sourceTree = "<group>"; };
 		07BA2D001F14DDFC00EC4D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EAA0421F14E0EB00AF9080 /* TestMultipleTarget1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMultipleTarget1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EAA0431F14E0EB00AF9080 /* TestMultipleTarget1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestMultipleTarget1-Info.plist"; path = "/Users/swarupa/TestMultipleTarget/TestMultipleTarget/TestMultipleTarget1-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07EAA03A1F14E0EB00AF9080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +103,7 @@
 				07BA2CF21F14DDFC00EC4D69 /* TestMultipleTargetTests */,
 				07BA2CFD1F14DDFC00EC4D69 /* TestMultipleTargetUITests */,
 				07BA2CD41F14DDFC00EC4D69 /* Products */,
+				07EAA0431F14E0EB00AF9080 /* TestMultipleTarget1-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +113,7 @@
 				07BA2CD31F14DDFC00EC4D69 /* TestMultipleTarget.app */,
 				07BA2CEF1F14DDFC00EC4D69 /* TestMultipleTargetTests.xctest */,
 				07BA2CFA1F14DDFC00EC4D69 /* TestMultipleTargetUITests.xctest */,
+				07EAA0421F14E0EB00AF9080 /* TestMultipleTarget1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,6 +217,23 @@
 			productReference = 07BA2CFA1F14DDFC00EC4D69 /* TestMultipleTargetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		07EAA0341F14E0EB00AF9080 /* TestMultipleTarget1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EAA03F1F14E0EB00AF9080 /* Build configuration list for PBXNativeTarget "TestMultipleTarget1" */;
+			buildPhases = (
+				07EAA0351F14E0EB00AF9080 /* Sources */,
+				07EAA03A1F14E0EB00AF9080 /* Frameworks */,
+				07EAA03B1F14E0EB00AF9080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMultipleTarget1;
+			productName = TestMultipleTarget;
+			productReference = 07EAA0421F14E0EB00AF9080 /* TestMultipleTarget1.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,6 +260,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 07BA2CD21F14DDFC00EC4D69;
 					};
+					07EAA0341F14E0EB00AF9080 = {
+						DevelopmentTeam = 3DV85RL7V3;
+					};
 				};
 			};
 			buildConfigurationList = 07BA2CCE1F14DDFC00EC4D69 /* Build configuration list for PBXProject "TestMultipleTarget" */;
@@ -243,6 +281,7 @@
 				07BA2CD21F14DDFC00EC4D69 /* TestMultipleTarget */,
 				07BA2CEE1F14DDFC00EC4D69 /* TestMultipleTargetTests */,
 				07BA2CF91F14DDFC00EC4D69 /* TestMultipleTargetUITests */,
+				07EAA0341F14E0EB00AF9080 /* TestMultipleTarget1 */,
 			);
 		};
 /* End PBXProject section */
@@ -269,6 +308,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EAA03B1F14E0EB00AF9080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EAA03C1F14E0EB00AF9080 /* LaunchScreen.storyboard in Resources */,
+				07EAA03D1F14E0EB00AF9080 /* Assets.xcassets in Resources */,
+				07EAA03E1F14E0EB00AF9080 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +348,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				07BA2CFF1F14DDFC00EC4D69 /* TestMultipleTargetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EAA0351F14E0EB00AF9080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EAA0361F14E0EB00AF9080 /* ViewController.m in Sources */,
+				07EAA0371F14E0EB00AF9080 /* AppDelegate.m in Sources */,
+				07EAA0381F14E0EB00AF9080 /* TestMultipleTarget.xcdatamodeld in Sources */,
+				07EAA0391F14E0EB00AF9080 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +561,32 @@
 			};
 			name = Release;
 		};
+		07EAA0401F14E0EB00AF9080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DV85RL7V3;
+				INFOPLIST_FILE = "TestMultipleTarget1-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativecapsuleprojects.TestMultipleTarget1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		07EAA0411F14E0EB00AF9080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DV85RL7V3;
+				INFOPLIST_FILE = "TestMultipleTarget1-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativecapsuleprojects.TestMultipleTarget1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -520,6 +606,7 @@
 				07BA2D051F14DDFC00EC4D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07BA2D061F14DDFC00EC4D69 /* Build configuration list for PBXNativeTarget "TestMultipleTargetTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +615,7 @@
 				07BA2D081F14DDFC00EC4D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07BA2D091F14DDFC00EC4D69 /* Build configuration list for PBXNativeTarget "TestMultipleTargetUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +624,16 @@
 				07BA2D0B1F14DDFC00EC4D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07EAA03F1F14E0EB00AF9080 /* Build configuration list for PBXNativeTarget "TestMultipleTarget1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EAA0401F14E0EB00AF9080 /* Debug */,
+				07EAA0411F14E0EB00AF9080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
