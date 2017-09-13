@@ -19,6 +19,8 @@
     // Override point for customization after application launch.
     
     NSLog(@"Test Multiple feature");
+    NSLog(@"Test Multiple feature1");
+
     return YES;
 }
 
