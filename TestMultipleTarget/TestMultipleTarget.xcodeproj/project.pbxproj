@@ -14,6 +14,13 @@
 		077D841F1F69076F0017E90E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CE71F14DDFC00EC4D69 /* LaunchScreen.storyboard */; };
 		077D84201F69076F0017E90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CE51F14DDFC00EC4D69 /* Assets.xcassets */; };
 		077D84211F69076F0017E90E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CDF1F14DDFC00EC4D69 /* Main.storyboard */; };
+		077D84291F690A8B0017E90E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CDD1F14DDFC00EC4D69 /* ViewController.m */; };
+		077D842A1F690A8B0017E90E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CDA1F14DDFC00EC4D69 /* AppDelegate.m */; };
+		077D842B1F690A8B0017E90E /* TestMultipleTarget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CE21F14DDFC00EC4D69 /* TestMultipleTarget.xcdatamodeld */; };
+		077D842C1F690A8B0017E90E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CD71F14DDFC00EC4D69 /* main.m */; };
+		077D842F1F690A8B0017E90E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CE71F14DDFC00EC4D69 /* LaunchScreen.storyboard */; };
+		077D84301F690A8B0017E90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CE51F14DDFC00EC4D69 /* Assets.xcassets */; };
+		077D84311F690A8B0017E90E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BA2CDF1F14DDFC00EC4D69 /* Main.storyboard */; };
 		07BA2CD81F14DDFC00EC4D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CD71F14DDFC00EC4D69 /* main.m */; };
 		07BA2CDB1F14DDFC00EC4D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CDA1F14DDFC00EC4D69 /* AppDelegate.m */; };
 		07BA2CDE1F14DDFC00EC4D69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BA2CDD1F14DDFC00EC4D69 /* ViewController.m */; };
@@ -52,6 +59,8 @@
 /* Begin PBXFileReference section */
 		077D84251F69076F0017E90E /* labelapp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = labelapp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		077D84261F69076F0017E90E /* labelapp1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = labelapp1.plist; path = /Users/swarupa/TestMultipleTarget/TestMultipleTarget/labelapp1.plist; sourceTree = "<absolute>"; };
+		077D84351F690A8B0017E90E /* labelapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = labelapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077D84361F690A8B0017E90E /* labelapp2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = labelapp2.plist; path = /Users/swarupa/TestMultipleTarget/TestMultipleTarget/labelapp2.plist; sourceTree = "<absolute>"; };
 		07BA2CD31F14DDFC00EC4D69 /* TestMultipleTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMultipleTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BA2CD71F14DDFC00EC4D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07BA2CD91F14DDFC00EC4D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +84,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		077D841D1F69076F0017E90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077D842D1F690A8B0017E90E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,6 +137,7 @@
 				07BA2CD41F14DDFC00EC4D69 /* Products */,
 				07EAA0431F14E0EB00AF9080 /* TestMultipleTarget1-Info.plist */,
 				077D84261F69076F0017E90E /* labelapp1.plist */,
+				077D84361F690A8B0017E90E /* labelapp2.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,7 @@
 				07BA2CFA1F14DDFC00EC4D69 /* TestMultipleTargetUITests.xctest */,
 				07EAA0421F14E0EB00AF9080 /* TestMultipleTarget1.app */,
 				077D84251F69076F0017E90E /* labelapp1.app */,
+				077D84351F690A8B0017E90E /* labelapp2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +215,23 @@
 			name = labelapp1;
 			productName = TestMultipleTarget;
 			productReference = 077D84251F69076F0017E90E /* labelapp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077D84271F690A8B0017E90E /* labelapp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077D84321F690A8B0017E90E /* Build configuration list for PBXNativeTarget "labelapp2" */;
+			buildPhases = (
+				077D84281F690A8B0017E90E /* Sources */,
+				077D842D1F690A8B0017E90E /* Frameworks */,
+				077D842E1F690A8B0017E90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = labelapp2;
+			productName = TestMultipleTarget;
+			productReference = 077D84351F690A8B0017E90E /* labelapp2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		07BA2CD21F14DDFC00EC4D69 /* TestMultipleTarget */ = {
@@ -281,6 +316,9 @@
 					077D84171F69076F0017E90E = {
 						DevelopmentTeam = 3DV85RL7V3;
 					};
+					077D84271F690A8B0017E90E = {
+						DevelopmentTeam = 3DV85RL7V3;
+					};
 					07BA2CD21F14DDFC00EC4D69 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3DV85RL7V3;
@@ -321,6 +359,7 @@
 				07BA2CF91F14DDFC00EC4D69 /* TestMultipleTargetUITests */,
 				07EAA0341F14E0EB00AF9080 /* TestMultipleTarget1 */,
 				077D84171F69076F0017E90E /* labelapp1 */,
+				077D84271F690A8B0017E90E /* labelapp2 */,
 			);
 		};
 /* End PBXProject section */
@@ -333,6 +372,16 @@
 				077D841F1F69076F0017E90E /* LaunchScreen.storyboard in Resources */,
 				077D84201F69076F0017E90E /* Assets.xcassets in Resources */,
 				077D84211F69076F0017E90E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077D842E1F690A8B0017E90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077D842F1F690A8B0017E90E /* LaunchScreen.storyboard in Resources */,
+				077D84301F690A8B0017E90E /* Assets.xcassets in Resources */,
+				077D84311F690A8B0017E90E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +430,17 @@
 				077D841A1F69076F0017E90E /* AppDelegate.m in Sources */,
 				077D841B1F69076F0017E90E /* TestMultipleTarget.xcdatamodeld in Sources */,
 				077D841C1F69076F0017E90E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077D84281F690A8B0017E90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077D84291F690A8B0017E90E /* ViewController.m in Sources */,
+				077D842A1F690A8B0017E90E /* AppDelegate.m in Sources */,
+				077D842B1F690A8B0017E90E /* TestMultipleTarget.xcdatamodeld in Sources */,
+				077D842C1F690A8B0017E90E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +535,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3DV85RL7V3;
 				INFOPLIST_FILE = labelapp1.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativecapsuleprojects.TestMultipleTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		077D84331F690A8B0017E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DV85RL7V3;
+				INFOPLIST_FILE = labelapp2.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativecapsuleprojects.TestMultipleTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		077D84341F690A8B0017E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DV85RL7V3;
+				INFOPLIST_FILE = labelapp2.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.creativecapsuleprojects.TestMultipleTarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -679,6 +763,15 @@
 			buildConfigurations = (
 				077D84231F69076F0017E90E /* Debug */,
 				077D84241F69076F0017E90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077D84321F690A8B0017E90E /* Build configuration list for PBXNativeTarget "labelapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077D84331F690A8B0017E90E /* Debug */,
+				077D84341F690A8B0017E90E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
